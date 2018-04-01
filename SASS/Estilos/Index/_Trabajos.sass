@@ -1,0 +1,47 @@
+$FondoDeTrabajos: #fff
+$TituloDeTrabajo: #000
+$Categorias: #333
+
+#Works
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    padding: 20px 0
+
+.ListWorks
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    margin: 20px 0
+    width: 96%
+    max-width: 800px
+    background-color: $FondoDeTrabajos
+    border-radius: 20px
+    list-style: none
+
+.Item-ListWorks
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    max-width: 250px
+    margin: 20px 0
+    cursor: pointer
+    &:hover
+        opacity: 0.5
+
+.ImgWork
+    width: 100%
+    max-width: 202px
+
+.WorksName
+    font:
+        size: 1.2em
+    color: $TituloDeTrabajo
+
+.Categories
+    color: $Categorias
