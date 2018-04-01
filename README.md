@@ -1,2 +1,0 @@
-# carlosmendozaweb.github.io
-Portafolio
