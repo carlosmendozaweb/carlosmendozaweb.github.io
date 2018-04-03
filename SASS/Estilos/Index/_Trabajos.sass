@@ -41,7 +41,25 @@ $Categorias: #333
 .WorksName
     font:
         size: 1.2em
+    text-align: center
     color: $TituloDeTrabajo
 
 .Categories
     color: $Categorias
+    font:
+        size: 1em
+
+@include Celular
+    .ListWorks
+        max-width: 900px
+
+    .Item-ListWorks
+        max-width: 300px
+    
+    .WorksName
+        font:
+            size: 1.4em
+
+    .Categories
+        font:
+            size: 1.2em

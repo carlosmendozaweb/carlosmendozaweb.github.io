@@ -14,12 +14,17 @@
     border:
         radius: 50%
     padding: 5px
+    margin:
+        bottom: 14px
+    transition: all 0.2s
 
 #RSS
     display: flex
     justify-content: space-around
     align-items: center
     width: 180px
+    margin:
+        top: 24px
 
 .RSS-Link
     color: #000
@@ -37,3 +42,13 @@
     &:hover
         width: 60px
         height: 60px
+    
+@include Celular
+    #Presentation-Img
+        width: 140px
+        height: 140px
+        
+@include Tablet
+    #Presentation-Img
+        width: 160px
+        height: 160px

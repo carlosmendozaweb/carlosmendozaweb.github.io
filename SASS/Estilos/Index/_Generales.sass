@@ -1,10 +1,36 @@
+@import ../_MixinsParaDispositivos
+
 .Title
     font:
         size: 2em
     text-align: center
-    
+    margin: 0
+    padding: 0
+    transition: all 0.2s
+
 .Subtitle
     font:
         size: 1.2em
         weight: 400
     text-align: center
+    margin: 0
+    padding: 0
+    transition: all 0.2s
+    
+@include Celular
+    .Title
+        font:
+            size: 2.4em
+
+    .Subtitle
+        font:
+            size: 1.6em
+            
+@include Tablet
+    .Title
+        font:
+            size: 2.6em
+
+    .Subtitle
+        font:
+            size: 1.8em
