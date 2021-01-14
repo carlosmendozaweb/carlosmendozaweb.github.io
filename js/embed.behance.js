@@ -1573,10 +1573,3 @@ $.fn.embedBehance = function( options ) {
 	
 
 };
-
-$(document).ready(function(){
-     $('.behance-container').embedBehance({
-        apiKey: '3DxhlJtlHElJ9kYaHSMfoSCmPCGNuZc9', // behance API Key
-        userName: 'carlosmendozaweb' // Behance Username
-    });
-});
