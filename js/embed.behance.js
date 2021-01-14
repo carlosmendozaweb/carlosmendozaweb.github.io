@@ -953,7 +953,7 @@ $.fn.embedBehance = function( options ) {
 	$(behanceContainer).on('click', '.wrap-project .wrap-cover, .wrap-project .wrap-title', function(){
 
 		var projectId = $(this).parent('.wrap-project').find('.raw-project-id').text();
-		var urlDetail = 'http://www.behance.net/v2/projects/' + projectId + '?api_key=' + settings.apiKey;
+		var urlDetail = 'https://www.behance.net/v2/projects/' + projectId + '?api_key=' + settings.apiKey;
 		
 		isDetail = 1;
 
